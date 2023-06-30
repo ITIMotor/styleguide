@@ -133,7 +133,7 @@ public class AppException : Exception
 - 不要在类中使用公共字段，使用自动属性代替公共字段。
 - 因为属性可以快速查找使用方，所以某些情况下，也可以使用私有属性替代字段。
 
-# 布局约定
+# C#布局约定
 
 - 在类的顶部声明所有的成员变量，静态变量声明在最前面
 - 每行只写一条语句、声明。
@@ -167,7 +167,7 @@ namespace Test
 }
 ```
 
-# 语言准则
+# C#语言准则
 
 ## 1. 字符串数据类型、
 
@@ -299,7 +299,7 @@ public static Func<string, int> FuncExample1 = x => Convert.ToInt32(x);
 public static Func<int, int, int> FuncExample2 = (x, y) => x + y;
 ```
 
-## 5. try-catch 和 using 语句
+## 6. try-catch 和 using 语句
 
 - 对大多数异常处理使用 try-catch 语句。
 ```c#
